@@ -69,6 +69,9 @@ TARGET_BOARD_PLATFORM := kona
 # Security patch
 VENDOR_SECURITY_PATCH := 2024-02-01
 
+# SEPolicy
+include device/qcom/sepolicy_vndr/SEPolicy.mk
+
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
