@@ -35,7 +35,7 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_SOURCE := kernel/samsung/sm8250
-TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig vendor/sm8250_sec_defconfig
+TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig vendor/kona_sec_defconfig
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
