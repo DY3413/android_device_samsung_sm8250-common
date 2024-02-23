@@ -73,6 +73,7 @@ VENDOR_SECURITY_PATCH := 2024-02-01
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/recovery/root/recovery.fstab
+TARGET_USERIMAGES_USE_F2FS := true
 
 # Inherit the proprietary files
 include vendor/samsung/sm8250-common/BoardConfigVendor.mk
